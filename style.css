@@ -189,3 +189,30 @@ video {
   font-size: 20px;
   color: #b9d7d9;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+  header ul {
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(15,22,30,0.9);
+    position: absolute;
+    top: 60px; right: 0;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .hero {
+    padding-left: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  section {
+    padding: 60px 8%;
+  }
+}
